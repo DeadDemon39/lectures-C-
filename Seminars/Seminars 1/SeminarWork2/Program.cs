@@ -1,28 +1,10 @@
-﻿/*
-Задача №1. Напишите программу, которая на вход принимает два числа и проверяет, является ли первое число квадратом второго.
-a = 25, b = 5 -> да
-a = 2, b = 10 -> нет
-a = 9, b = -3 -> да
-a = -3 b = 9 -> нет
-*/
+﻿int a = new Random().Next(0,11); // функция для рандома чисел
+Console.WriteLine(a);
 
+int b = new Random().Next(0,11);
+Console.WriteLine(b);
 
+int result = a + b;
 
-Console.WriteLine("Введите первое число:");
+Console.WriteLine(result);
 
-int a = Convert.ToInt32(Console.ReadLine());
-
-Console.WriteLine("Введите второе число:");
-
-int b  = Convert.ToInt32(Console.ReadLine());
-
-int c = a / b;
-
-if (c==b)
-{
-    Console.WriteLine("Число является квадратным корнем");
-}
-else
-{
-    Console.WriteLine("Число не является квадратным корнем");
-}
