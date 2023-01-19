@@ -1,19 +1,13 @@
-﻿// // /* Напишите программу, которая на вход принимает число и выдает его квадрат (число умноженное
-// // на само себя).
+﻿Console.WriteLine("Введите ваше имя: ");
 
-// // Например:
-// // 4 -> 16
-// // -3 -> 9
-// // -7 -> 49
-// // */
+string username = Console.ReadLine();
 
+Console.WriteLine("Введите ваш город: ");
 
-Console.WriteLine("Введите число:");
-
- string numberStr = Console.ReadLine(); // данные приходят в формате string!!!
-
- int number = Convert.ToInt32(numberStr); // Convert.ToInt32() - ковертер (Convert.ToDoble) - конверт для не целых чисел
-
- int result = number * number;
-
- Console.WriteLine($"квадрат числа {number} = {result}");
+string usercountry = Console.ReadLine();
+{
+    Console.WriteLine(username);
+}
+{
+    Console.WriteLine(usercountry);
+}
