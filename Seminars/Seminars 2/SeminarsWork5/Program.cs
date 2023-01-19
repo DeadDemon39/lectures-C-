@@ -19,7 +19,7 @@ int firstnumber = GetNumber();
 Console.WriteLine("Введите второе число:");
 int secondnumber = GetNumber();
 
-if(firstnumber * firstnumber == secondnumber)
+if(firstnumber * firstnumber == secondnumber || secondnumber * secondnumber == firstnumber)
 {
     Console.WriteLine("число является квадратом другого числа");
 }
