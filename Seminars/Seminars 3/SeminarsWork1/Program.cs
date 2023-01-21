@@ -19,13 +19,13 @@ int GetNumber(string message)
 {
 int resultNumber = 0;
 
-while(true)
+while(true) //вечный цикл
 {
 Console.WriteLine(message);
 
-if(int.TryParse(Console.ReadLine(), out resultNumber) && resultNumber != 0)
+if(int.TryParse(Console.ReadLine(), out resultNumber) && resultNumber != 0) // TryParse() безопасное конвертирование
 {
-break;
+break; // стопит цикл
 }
 else
 {
