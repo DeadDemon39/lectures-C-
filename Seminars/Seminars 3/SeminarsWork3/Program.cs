@@ -41,3 +41,7 @@ double distance = getDistance(ax, ay, bx, by);
 
 Console.WriteLine($"Distance between ({ax},{ay}) and ({bx}, {by}) is {distance}");
 
+
+
+double d = (double)1/3;
+Console.WriteLine($"{d:f1}"); // приер округления числа с остатком
