@@ -9,9 +9,9 @@ int[] Fibonacci(int number)
 {
     int[] array = new int[number];
 
-    if (number == 0)
-        return new int[1] { 0 };
     if (number == 1)
+        return new int[1] { 0 };
+    if (number == 2)
         return new int[2] { 0, 1 };
     array[0] = 0;
     array[1] = 1;
